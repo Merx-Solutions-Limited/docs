@@ -1,55 +1,119 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Merx Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#25D366",
+    "light": "#4ADE80",
+    "dark": "#0F7A2A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Getting Started",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Welcome to Merx",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "what-is-merx",
+              "quickstart"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Platform Overview",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "platform/key-features",
+              "platform/how-it-works",
+              "platform/use-cases"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Core Features",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "AI & Automation",
             "pages": [
-              "api-reference/introduction"
+              "features/ai-chatbots",
+              "features/conversation-flows",
+              "features/smart-responses"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Marketing & Campaigns",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "features/campaign-management",
+              "features/audience-targeting",
+              "features/broadcast-messaging"
+            ]
+          },
+          {
+            "group": "E-commerce",
+            "pages": [
+              "features/product-catalog",
+              "features/order-management",
+              "features/shopping-cart"
+            ]
+          },
+          {
+            "group": "Customer Management",
+            "pages": [
+              "features/contact-management",
+              "features/customer-segmentation",
+              "features/conversation-history"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "User Guides",
+        "groups": [
+          {
+            "group": "Setup & Configuration",
+            "pages": [
+              "guides/initial-setup",
+              "guides/whatsapp-setup",
+              "guides/brand-configuration"
+            ]
+          },
+          {
+            "group": "Building Experiences",
+            "pages": [
+              "guides/creating-flows",
+              "guides/setting-up-campaigns",
+              "guides/ai-configuration"
+            ]
+          },
+          {
+            "group": "Integration Guides",
+            "pages": [
+              "guides/shopify-integration",
+              "guides/payment-setup",
+              "guides/third-party-tools"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Analytics & Insights",
+        "groups": [
+          {
+            "group": "Performance Tracking",
+            "pages": [
+              "analytics/dashboard-overview",
+              "analytics/conversation-metrics",
+              "analytics/campaign-performance"
+            ]
+          },
+          {
+            "group": "Business Intelligence",
+            "pages": [
+              "analytics/customer-insights",
+              "analytics/revenue-tracking",
+              "analytics/roi-measurement"
             ]
           }
         ]
@@ -58,19 +122,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Support",
+          "href": "https://www.hellomerx.com/contact",
+          "icon": "life-ring"
         }
       ]
     }
@@ -79,24 +133,19 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://merx.com",
+      "linkedin": "https://linkedin.com/company/merx",
+      "twitter": "https://twitter.com/merxplatform"
     }
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "search": {
+    "prompt": "Search Merx documentation..."
   }
 }

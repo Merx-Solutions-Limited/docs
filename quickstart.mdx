@@ -1,97 +1,488 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: "Quick Start Guide"
+description: "Get your first WhatsApp campaign live in under 30 minutes with this step-by-step guide"
 ---
 
-## Setup your development
+# Quick Start Guide
 
-Learn how to update your docs locally and deploy them to the public.
+Welcome to Merx! This guide will help you set up your WhatsApp Business automation and launch your first campaign in under 30 minutes. No technical experience required!
 
-### Edit and preview
+<Note>
+**Before you start**: Make sure you have a WhatsApp Business account. If you don't have one yet, [create one here](https://business.whatsapp.com/) - it's free!
+</Note>
+
+## 🚀 Step 1: Account Setup (5 minutes)
+
+### Create Your Merx Account
+
+<Steps>
+  <Step title="Sign Up">
+    Visit [app.merx.com/signup](https://app.merx.com/signup) and create your account using your business email
+  </Step>
+  <Step title="Verify Email">
+    Check your inbox and click the verification link we sent you
+  </Step>
+  <Step title="Choose Your Plan">
+    Start with our free 14-day trial - no credit card required
+  </Step>
+  <Step title="Brand Setup">
+    Enter your business name, industry, and basic information
+  </Step>
+</Steps>
+
+<Tip>
+**Pro Tip**: Use your business email address for better deliverability and professional appearance.
+</Tip>
+
+---
+
+## 📱 Step 2: Connect WhatsApp Business (10 minutes)
+
+### Link Your WhatsApp Business Account
+
+<Tabs>
+  <Tab title="WhatsApp Business API">
+    **For Businesses (Recommended)**
+    
+    1. **Get Your Phone Number Verified**
+       - Use a dedicated business phone number
+       - This will be your customers' contact point
+       - Can't be the same as your personal WhatsApp
+    
+    2. **Connect via QR Code**
+       - Open WhatsApp Business on your phone
+       - Go to Settings > Business Tools > WhatsApp Business API
+       - Scan the QR code shown in Merx dashboard
+    
+    3. **Verify Connection**
+       - Send a test message to confirm everything works
+       - You should see the message appear in your Merx dashboard
+  </Tab>
+  
+  <Tab title="WhatsApp Business App">
+    **For Small Businesses**
+    
+    1. **Download WhatsApp Business**
+       - Available on App Store and Google Play
+       - Use your business phone number to register
+    
+    2. **Complete Business Profile**
+       - Add your business name and description
+       - Upload your logo and business hours
+       - Add your website and location
+    
+    3. **Connect to Merx**
+       - Use the integration wizard in your Merx dashboard
+       - Follow the step-by-step connection process
+  </Tab>
+  
+  <Tab title="Need Help?">
+    **Common Issues & Solutions**
+    
+    - **Phone number already in use**: Make sure you're not using your personal WhatsApp number
+    - **Verification failed**: Check that your phone has good internet connection
+    - **Can't scan QR code**: Try refreshing the page and scanning again
+    - **Still stuck?**: Contact our support team - we're here to help!
+  </Tab>
+</Tabs>
+
+---
+
+## 🎨 Step 3: Create Your First Flow (10 minutes)
+
+### Choose a Template to Get Started
+
+<CardGroup cols={2}>
+  <Card title="Welcome New Customers" icon="hand-wave">
+    Perfect for introducing your brand and collecting customer information
+    
+    **Includes**:
+    - Friendly welcome message
+    - Business introduction
+    - Contact information collection
+    - Special offer for new customers
+  </Card>
+  
+  <Card title="Product Inquiry Handler" icon="shopping-bag">
+    Ideal for e-commerce businesses to showcase products
+    
+    **Includes**:
+    - Product catalog display
+    - AI-powered product search
+    - Add to cart functionality
+    - Order processing workflow
+  </Card>
+  
+  <Card title="Lead Qualification" icon="target">
+    Great for service businesses to qualify prospects
+    
+    **Includes**:
+    - Smart questioning sequence
+    - Lead scoring system
+    - Appointment booking
+    - CRM integration
+  </Card>
+  
+  <Card title="Customer Support" icon="headset">
+    Automate common customer service inquiries
+    
+    **Includes**:
+    - FAQ responses
+    - Issue resolution steps
+    - Human handoff option
+    - Satisfaction survey
+  </Card>
+</CardGroup>
+
+### Customize Your Flow
+
+<Steps>
+  <Step title="Select Template">
+    Click on the template that best matches your business needs
+  </Step>
+  <Step title="Personalize Messages">
+    Replace placeholder text with your brand voice and specific information
+  </Step>
+  <Step title="Add Your Products/Services">
+    Upload your product catalog or service descriptions
+  </Step>
+  <Step title="Test the Flow">
+    Use the preview feature to experience it as a customer would
+  </Step>
+</Steps>
 
 <AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
+  <Accordion title="Flow Builder Basics">
+    **Key Elements You'll Use**:
+    
+    - **Message Nodes**: Send text, images, or videos to customers
+    - **Button Nodes**: Give customers options to choose from
+    - **Condition Nodes**: Create different paths based on responses
+    - **AI Nodes**: Let artificial intelligence handle complex questions
+    - **Integration Nodes**: Connect to your other business tools
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 
-    1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `docs.json` is): ``` mintlify dev ```
-    <Note>
-      If you’re currently using the legacy ```mint.json``` configuration file, please update the Mintlify CLI:
-
-
-      ```npm i -g mintlify@latest```
-      And run the new upgrade command in your docs repository:
-
-      ```mintlify upgrade```
-      You should now be using the new ```docs.json``` configuration file. Feel free to delete the ```mint.json``` file from your repository.
-    </Note>
+  
+  <Accordion title="Customization Tips">
+    **Make It Your Own**:
+    
+    - Use your brand colors and fonts
+    - Include your logo and business images
+    - Write in your brand's tone of voice
+    - Add specific product information
+    - Include your business hours and contact details
+  </Accordion>
+  
+  <Accordion title="Testing Best Practices">
+    **Before Going Live**:
+    
+    - Test all conversation paths
+    - Check that links and buttons work
+    - Verify integrations are functioning
+    - Ask a colleague to test the experience
+    - Make sure contact information is correct
   </Accordion>
 </AccordionGroup>
 
-### Deploy your changes
+---
+
+## 📞 Step 4: Import Your Contacts (5 minutes)
+
+### Add Your Customer List
+
+<Tabs>
+  <Tab title="CSV Upload">
+    **Upload Your Existing Contacts**
+    
+    1. **Prepare Your File**
+       - Export contacts from your current system
+       - Required columns: Name, Phone Number
+       - Optional: Email, Company, Tags
+    
+    2. **Upload to Merx**
+       - Go to Contacts > Import
+       - Select your CSV file
+       - Map columns to Merx fields
+    
+    3. **Review and Confirm**
+       - Check that phone numbers are formatted correctly
+       - Verify contact information looks accurate
+       - Click "Import" to add contacts
+  </Tab>
+  
+  <Tab title="CRM Integration">
+    **Sync with Your Existing CRM**
+    
+    **Supported Platforms**:
+    - Salesforce
+    - HubSpot
+    - Pipedrive
+    - Zoho CRM
+    - Google Contacts
+    
+    **Setup Process**:
+    1. Go to Integrations in your dashboard
+    2. Select your CRM platform
+    3. Follow the authentication steps
+    4. Choose which contacts to sync
+    5. Enable automatic synchronization
+  </Tab>
+  
+  <Tab title="Manual Entry">
+    **Add Contacts One by One**
+    
+    **When to Use**:
+    - Small contact list (under 50 contacts)
+    - VIP customers you want to add personally
+    - Testing with a few contacts first
+    
+    **How to Add**:
+    1. Go to Contacts > Add New
+    2. Enter contact information
+    3. Add relevant tags and notes
+    4. Save and repeat for other contacts
+  </Tab>
+</Tabs>
+
+<Warning>
+**Important**: Only import contacts who have given you permission to message them on WhatsApp. This ensures compliance with WhatsApp's policies and maintains your sender reputation.
+</Warning>
+
+---
+
+## 🎯 Step 5: Launch Your First Campaign (5 minutes)
+
+### Send Your Welcome Campaign
+
+<Steps>
+  <Step title="Create Campaign">
+    Go to Campaigns > Create New and choose "Welcome Message" template
+  </Step>
+  <Step title="Select Audience">
+    Choose which contacts should receive this campaign (start with a small test group)
+  </Step>
+  <Step title="Schedule Delivery">
+    Send immediately or schedule for optimal timing (we recommend 10 AM - 6 PM)
+  </Step>
+  <Step title="Review and Launch">
+    Double-check your message, audience, and timing, then click "Send Campaign"
+  </Step>
+</Steps>
+
+### Your First Campaign Template
+
+```
+👋 Hi [Customer Name]!
+
+Welcome to [Your Business Name]! We're excited to have you as part of our community.
+
+Here's what you can expect from us:
+✅ Exclusive offers and early access to new products
+✅ Instant customer support when you need it
+✅ Personalized recommendations just for you
+
+Reply with any questions - we're here to help!
+
+Best regards,
+[Your Name]
+[Your Business Name]
+```
+
+<Note>
+**Pro Tip**: Start with a small group (10-20 contacts) for your first campaign to test the process and see how customers respond.
+</Note>
+
+---
+
+## 📊 Step 6: Monitor Performance (Ongoing)
+
+### Track Your Results
+
+<CardGroup cols={3}>
+  <Card title="Delivery Rate" icon="paper-plane">
+    **What to Watch**: Percentage of messages successfully delivered
+    
+    **Good Performance**: 95%+ delivery rate
+    
+    **If Low**: Check phone number formatting and contact quality
+  </Card>
+  
+  <Card title="Open Rate" icon="envelope-open">
+    **What to Watch**: How many recipients read your messages
+    
+    **Good Performance**: 90%+ open rate (WhatsApp typically has very high open rates)
+    
+    **If Low**: Review message timing and content relevance
+  </Card>
+  
+  <Card title="Response Rate" icon="reply">
+    **What to Watch**: Percentage of recipients who reply to your messages
+    
+    **Good Performance**: 20%+ response rate for first campaign
+    
+    **If Low**: Make messages more engaging and include clear call-to-action
+  </Card>
+</CardGroup>
+
+### Your Analytics Dashboard
+
+<Tabs>
+  <Tab title="Real-Time Metrics">
+    **Monitor Live Performance**:
+    - Messages sent vs. delivered
+    - Current response rate
+    - Active conversations
+    - Customer satisfaction scores
+  </Tab>
+  
+  <Tab title="Campaign Analysis">
+    **Understand What Works**:
+    - Best performing message types
+    - Optimal sending times
+    - Audience segment performance
+    - Conversion tracking
+  </Tab>
+  
+  <Tab title="Customer Insights">
+    **Learn About Your Audience**:
+    - Most common questions and requests
+    - Customer journey patterns
+    - Engagement trends over time
+    - Satisfaction feedback
+  </Tab>
+</Tabs>
+
+---
+
+## ✅ Success Checklist
 
 <AccordionGroup>
-
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
-
+  <Accordion title="Week 1: Foundation">
+    **Complete These Tasks**:
+    - [ ] Account setup and WhatsApp connection
+    - [ ] First flow created and tested
+    - [ ] Initial contacts imported
+    - [ ] Welcome campaign sent
+    - [ ] Analytics dashboard reviewed
+    
+    **Expected Results**:
+    - 90%+ message delivery rate
+    - 20%+ response rate
+    - Positive customer feedback
+    - Clear understanding of platform basics
+  </Accordion>
+  
+  <Accordion title="Week 2: Optimization">
+    **Next Steps**:
+    - [ ] Analyze first campaign results
+    - [ ] Create second flow (product inquiry or support)
+    - [ ] Set up automated responses
+    - [ ] Import additional contacts
+    - [ ] Schedule regular campaigns
+    
+    **Focus Areas**:
+    - Improve message personalization
+    - Test different sending times
+    - Refine conversation flows
+    - Increase contact engagement
+  </Accordion>
+  
+  <Accordion title="Month 1: Scaling">
+    **Growth Activities**:
+    - [ ] Multiple conversation flows active
+    - [ ] Integration with other business tools
+    - [ ] Advanced segmentation strategies
+    - [ ] A/B testing different approaches
+    - [ ] ROI measurement and reporting
+    
+    **Success Metrics**:
+    - 40%+ increase in customer engagement
+    - Measurable impact on sales/leads
+    - Positive customer satisfaction scores
+    - Efficient workflow automation
+  </Accordion>
 </AccordionGroup>
 
-## Update your docs
+---
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+## 🆘 Need Help?
 
-<CardGroup>
+<CardGroup cols={2}>
+  <Card title="Live Chat Support" icon="comments">
+    Get instant help from our customer success team
+    
+    **Available**: Monday-Friday, 9 AM - 6 PM EST
+    
+    **Response Time**: Under 2 minutes
+  </Card>
+  
+  <Card title="Schedule a Call" icon="phone">
+    Book a personalized onboarding session
+    
+    **Duration**: 30 minutes
+    
+    **Includes**: Setup assistance, strategy discussion, Q&A
+  </Card>
+  
+  <Card title="Video Tutorials" icon="play">
+    Watch step-by-step video guides
+    
+    **Topics**: Setup, flow building, campaign creation, analytics
+    
+    **Length**: 5-10 minutes each
+  </Card>
+  
+  <Card title="Community Forum" icon="users">
+    Connect with other Merx users
+    
+    **Features**: Best practices, templates, success stories
+    
+    **Activity**: 500+ active members
+  </Card>
+</CardGroup>
 
-<Card title="Add Content With MDX" icon="file" href="/essentials/markdown">
-  Add content to your docs with MDX syntax.
-</Card>
+---
 
-<Card
-  title="Add Code Blocks"
-  icon="square-code"
-  href="/essentials/code"
->
-  Add code directly to your docs with syntax highlighting.
-</Card>
+## 🎉 Congratulations!
 
-<Card
-  title="Add Images"
-  icon="image"
-  href="/essentials/images"
->
-  Add images to your docs to make them more engaging.
-</Card>
+You've successfully set up your WhatsApp Business automation with Merx! Here's what you've accomplished:
 
-<Card
-  title="Add Custom Components"
-  icon="puzzle-piece"
-  href="/essentials/reusable-snippets"
->
-  Add templates to your docs to make them more reusable.
-</Card>
+✅ **Connected** your WhatsApp Business account
+✅ **Created** your first conversation flow
+✅ **Imported** your customer contacts
+✅ **Launched** your first campaign
+✅ **Set up** performance tracking
 
+## Next Steps
+
+<Steps>
+  <Step title="Explore Advanced Features">
+    Learn about AI automation, e-commerce integration, and advanced analytics
+  </Step>
+  <Step title="Join Our Community">
+    Connect with other marketers using WhatsApp for business growth
+  </Step>
+  <Step title="Schedule Success Call">
+    Book a strategy session to optimize your WhatsApp marketing
+  </Step>
+</Steps>
+
+<Note>
+**Remember**: The key to WhatsApp marketing success is providing value to your customers. Focus on helpful, relevant messages rather than just promotional content.
+</Note>
+
+<CardGroup cols={2}>
+  <Card
+    title="Explore More Features"
+    icon="compass"
+    href="/platform/key-features"
+  >
+    Discover advanced capabilities to grow your business
+  </Card>
+  <Card
+    title="See Use Cases"
+    icon="lightbulb"
+    href="/platform/use-cases"
+  >
+    Learn how businesses like yours are succeeding with Merx
+  </Card>
 </CardGroup>
