@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": " ",
         "groups": [
           {
             "group": "Welcome to Merx",
@@ -28,13 +28,7 @@
               "platform/how-it-works",
               "platform/use-cases"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Core Features",
-        "groups": [
-          {
+          },{
             "group": "AI & Automation",
             "pages": [
               "features/ai-chatbots",
@@ -65,13 +59,7 @@
               "features/customer-segmentation",
               "features/conversation-history"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "User Guides",
-        "groups": [
-          {
+          },{
             "group": "Setup & Configuration",
             "pages": [
               "guides/initial-setup",
@@ -94,13 +82,7 @@
               "guides/payment-setup",
               "guides/third-party-tools"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Analytics & Insights",
-        "groups": [
-          {
+          },{
             "group": "Performance Tracking",
             "pages": [
               "analytics/dashboard-overview",
